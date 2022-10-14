@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form action="#">
+        <p>Caesar Cipher Input Text</p>
+        <textarea id="input" oninput="procesInput()" cols="30" rows="4"></textarea><br>
+        <p>
+            <input id="encode" type="radio" name="code" value="code" checked="ECode">Encode
+            <input id="decode" type="radio" name="code" value="code">Decode
+        </p>
+        Key:<input id="key" type="number" value="5" min="0" max="26"></input>
+        <p>Caesar Cipher Output Text</p>
+        <textarea id="output" cols="30" rows="4"></textarea>
+    </form>
+
+    <!-- Java Link -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
